@@ -1,0 +1,91 @@
+form{
+         
+          margin-top: 100px;
+}
+body{
+          background-color: rgb(2, 18, 13);
+          background-image: url("https://t3.ftcdn.net/jpg/06/80/35/80/360_F_680358031_rZ3bhwlPeEe081utZAkERT1Q7iUgqiml.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          
+         
+}
+.overlay{
+          background-color: rgba(0,0,0,0.7);
+          height: 1000px;
+          width: 100%;
+}
+input{
+          height: 30px;
+          width: 400px;
+          font-size: 16px;
+          outline: none;
+          border-radius: 10px;
+          padding: 15px;
+          font-size: 18px;
+}
+button{
+          height:63px ;
+          width: 150px;
+          background-color: rgb(39, 205, 39);
+          color: aliceblue;
+          border-radius: 10px;
+          font-size: 16px;
+          cursor: pointer;
+          font-weight: bold;
+}
+.con{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+#show_more{
+         margin-left: 150px;
+         display: none;
+         height:63px ;
+          width: 150px;
+          background-color: rgb(39, 205, 39);
+          color: aliceblue;
+          border-radius: 10px;
+          font-size: 16px;
+          cursor: pointer;
+          font-weight: bold;
+          margin-top: 30px;
+          margin-left: 800px;
+}
+.search-con{
+          height: auto;
+          width: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 130px;
+          margin-top: 100px;
+}
+.search_result {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center; /* Center-align the images */
+          gap: 14px; /* Add some space between images */
+        }
+        
+.search_result img {
+          max-width: 400px;
+          max-height: 400px;
+          border-radius: 8px;
+        }
+        #search_form{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+@media(max-width:768px){
+  .search_result img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+  }
+
+}
